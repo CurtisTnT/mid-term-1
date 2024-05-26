@@ -1,0 +1,35 @@
+.card-container {
+  position: relative;
+  margin-top: 29px;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 400px;
+
+  .card-text-ctn {
+    position: absolute;
+    inset: 0px;
+    align-content: flex-end;
+    background-image: linear-gradient(
+      to right,
+      rgba(29, 29, 29, 0.8),
+      rgba(29, 29, 29, 0.5) 20%,
+      rgba(29, 29, 29, 0) 100%
+    );
+    padding: 39px 47px;
+
+    .name {
+      margin: 0px;
+      margin-bottom: 16px;
+      font-size: 36px;
+      line-height: 64px;
+      font-weight: 600;
+    }
+
+    .description {
+      margin: 0px;
+      font-size: 16px;
+      line-height: 27px;
+      font-weight: 400;
+    }
+  }
+}

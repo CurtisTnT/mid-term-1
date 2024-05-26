@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+
+  .header-anonime {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .header-nav {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #868686;
+    font-weight: 400;
+  }
+
+  .header-search {
+    width: 375px;
+    background-color: #374151;
+    outline: none;
+    border: none;
+    border-radius: 37px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    padding: 8px 18px;
+
+    &::placeholder {
+      color: #868686;
+    }
+  }
+}
