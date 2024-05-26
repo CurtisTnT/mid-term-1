@@ -9,7 +9,7 @@ export default function MinerCard(props) {
           src={image}
           alt="anime-image"
           width={170}
-          height={204}
+          height={254}
           className="image"
         />
 
